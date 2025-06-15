@@ -1,7 +1,15 @@
 package com.zakir.project;
 
+import newtopic.Car;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        sc.nextInt();
         int[] numbers = {5, 10, -3};
         int sum = numbers[0] + numbers[1] + numbers[2]; // 1 zadanie
 
