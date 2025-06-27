@@ -2,14 +2,14 @@ package newtopic;
 
 public class ExamplePerson {
     public static void main(String[] args) {
-        Person kanan = new Person();
+        Person currentperson = new Person();
 
-        kanan.name = "Kanan";
-        kanan.surname = "Sattarzade";
-        kanan.age = 10;
-        kanan.gender = "Male";
-        kanan.height = 140;
+        currentperson.name = "Kanan";
+        currentperson.surname = "Sattarzade";
+        currentperson.age = 10;
+        currentperson.gender = "Male";
+        currentperson.height = 140;
 
-        kanan.person_info();
+        currentperson.person_info();
     }
 }
